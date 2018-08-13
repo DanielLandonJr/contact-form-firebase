@@ -1,0 +1,32 @@
+{
+  "name": "contact-form-firebase",
+  "version": "1.0.0",
+  "description": "Responsive contact form with Firebase for backend",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deployLocal": "bash dev/bin/build_distribution.sh false false",
+    "deployRemote": "bash dev/bin/build_distribution.sh false true",
+    "sass": "echo \"SASS Started\" && node-sass -w dev/scss/ -o dev/css/main.css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielLandonJr/contact-form-firebase.git"
+  },
+  "author": "Daniel C. Landon Jr.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielLandonJr/contact-form-firebase/issues"
+  },
+  "homepage": "https://github.com/DanielLandonJr/contact-form-firebase#readme",
+  "devDependencies": {
+    "clean-css-cli": "^4.2.1",
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.3",
+    "uglify-js": "^3.4.7"
+  },
+  "dependencies": {}
+}

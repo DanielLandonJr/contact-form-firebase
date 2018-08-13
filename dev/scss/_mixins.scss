@@ -1,0 +1,41 @@
+/* ~~~~~~~~~~~~~~~ mixins & functions ~~~~~~~~~~~~~~~ */
+
+// functions
+
+
+
+// mixins
+
+// media query mixins
+@mixin mediaSm {
+  // screen smaller than 500px
+  @media screen and (max-width: 500px) {
+    /* ~~~~~~~~~~~~~~~ smaller than 500px ~~~~~~~~~~~~~~~ */
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  // screen smaller than 768px
+  @media screen and (max-width: 768px) {
+    /* ~~~~~~~~~~~~~~~ smaller than 768px ~~~~~~~~~~~~~~~ */
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  // screen size 769 to 1170px
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    /* ~~~~~~~~~~~~~~~ between 769px and 1170px ~~~~~~~~~~~~~~~ */
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  // screen larger than 1171px
+  @media screen and (min-width: 1171px) {
+    /* ~~~~~~~~~~~~~~~ larger than 1171px ~~~~~~~~~~~~~~~ */
+    @content;
+  }
+}
+

@@ -1,2 +1,3 @@
-# example_contact-form-firebase
-An example contact form using cssGrid and Firebase
+# Responsive Contact Form w/Firebase
+
+A responsive contact form using CSS grid and Firebase.
